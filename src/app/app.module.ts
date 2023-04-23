@@ -17,6 +17,7 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
 import { FormsModule } from '@angular/forms';
 import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
 import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.c
     ExemploServicos2Component,
     TwoWayDataBindingComponent,
     CicloDeVidaComponent,
-    CicloDeVidaPaiComponent
+    CicloDeVidaPaiComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
